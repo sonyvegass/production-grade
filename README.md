@@ -95,6 +95,8 @@ Error: storage.NewClient() failed: dialing: google: could not find default crede
 Alors, entre cette commande, et refaire l'authentification avec GCloud : 
 ```gcloud auth application-default login```
 
+<br>
+
 ## Mettre à jour ou détruire le projet
 
     1. entrer un 'terraform plan' --> pour appliquer des modifications que vous venez d'effectuer sur la configuration Terraform
@@ -102,7 +104,7 @@ Alors, entre cette commande, et refaire l'authentification avec GCloud :
     3. entrer un 'terraform destroy' --> pour detruire le projet, ainsi, toutes les ressources créées via ce code tf seront détruites
 
 
-## . Importer le state : DONE
+## . Importer le state :
 
 Le remote state permet de centraliser le state pour le rendre accessible à toute l'équipe mais aussi de le garder en sécurité et chiffré. 
 
